@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/favKort"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    app:cardBackgroundColor="@color/fadedBlue"
+    app:cardCornerRadius="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:id="@+id/navn"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="@string/line_1"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/beskrivelse"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_below="@+id/navn"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="13dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="@string/line_2"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/button"
+            android:layout_width="55dp"
+            android:layout_height="48dp"
+            android:layout_alignParentTop="true"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="62dp"
+            android:contentDescription="@string/kryss"
+            android:src="@drawable/ic_close" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

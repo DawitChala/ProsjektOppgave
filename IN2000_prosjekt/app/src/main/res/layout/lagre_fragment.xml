@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/ic_background"
+    tools:context="com.example.IN2000_prosjekt.Home.LagreFragment">
+
+    <EditText
+        android:id="@+id/skrivTittel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tittelHint"
+        android:inputType="textMultiLine|textCapSentences"
+        android:maxLength="20"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/skrivBeskrivelse"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/skrivBeskrivelse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/beskrivelseHint"
+        android:inputType="textMultiLine|textCapSentences"
+        android:maxLength="100"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.479"
+        tools:layout_editor_absoluteX="0dp"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/lagreKnapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="60dp"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:text="@string/save"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/skrivBeskrivelse" />
+</androidx.constraintlayout.widget.ConstraintLayout>

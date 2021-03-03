@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/nav_hjem">
+
+    <!-- HjemFragment -->
+    <fragment
+        android:id="@+id/nav_hjem"
+        android:name="com.example.IN2000_prosjekt.Home.HjemFragment"
+        android:label="navigasjon_hjem"
+        tools:layout="@layout/hjem_fragment"/>
+
+    <!-- LagreFragment -->
+    <fragment
+        android:id="@+id/nav_lagre"
+        android:name="com.example.IN2000_prosjekt.Home.LagreFragment"
+        android:label="navigasjon_lagre"
+        tools:layout="@layout/lagre_fragment" />
+
+    <!-- FavouritesFragment -->
+    <fragment
+        android:id="@+id/nav_lagret"
+        android:name="com.example.IN2000_prosjekt.Favourites.FavouritesFragment"
+        android:label="navigasjon_favoritter"
+        tools:layout="@layout/favourites_fragment" />
+
+
+    <!-- VarslingerFragment -->
+    <fragment
+        android:id="@+id/nav_varslinger"
+        android:name="com.example.IN2000_prosjekt.Info.VarslingerFragment"
+        android:label="navigasjon_varslinger"
+        tools:layout="@layout/varslinger_fragment" />
+
+    <!-- InfoFragment -->
+    <fragment
+        android:id="@+id/nav_info"
+        android:name="com.example.IN2000_prosjekt.Info.InfoFragment"
+        android:label="navigasjon_info"
+        tools:layout="@layout/info_fragment"/>
+
+
+    <!-- SettingsFragment -->
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.IN2000_prosjekt.Settings.SettingsFragment"
+        android:label="navigasjon_settings"
+        tools:layout="@layout/settings_fragment" />
+
+</navigation>

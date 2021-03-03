@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">current</string>
+
+    <string name="vettregler">Vettregler</string>
+
+    <string name="forberedelser">Forberedelser</string>
+
+    <string name="forbeTittel">Hvordan forberede seg til konkurranse i OpenWater</string>
+
+    <string name="forbredelserTekst"> 1. Øv på pusting til begge sider, du vil jo kunne puste om det ligger noen rett oppi deg på en
+        side, eller om det kommer bølger inn fra en side.\n\n2. Øv på navigering (kan fint gjøres i basseng). Finn et punkt du fokuserer
+        på og øv på å løfte hodet opp av vannet for å se etter dette punktet. Finn en jevn rytme for siktingen, gjerne hvert 6-10. tak
+        (hver 3.-5. syklus).\n\n3. Øv på høyere frekvens og litt kortere tak. Dette gjør deg mer stabil og mindre sårbar for bevegelser
+        fra havet og øvrige konkurrenter.\n\n4. Øv på massestarter og drafting. Tren sammen med noen. Veldig lurt for å unngå panikk og bli
+        trygg. Og veldig hyggelig og sosialt.\n\n5.Sjekk løypa før start, legg merke til om det er strøm og ta hensyn til dette når du
+        navigerer. Hvis ikke svømmer du for langt, og det er jo ikke ønskelig. Sjekk også steder der du må løpe, for eksempel ved vending/
+        start/slutt. Det går fortere å løpe enn å svømme, sørg for at du velger den ruta som gir deg mest mulig løping.</string>
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAf9E-hvXN1MrjBYbjtaMdWL2_Pl7wlmJ4</string>
+
+    <string name="vettTittel">Følg NSFs open water vettregler slik at du er tryggest mulig når du er ute å svømmer!</string>
+
+    <string name="vettreglerTekst">1. Svøm aldri alene\n2. Svøm langs land\n3. Kjenn din begrensning\n4. Meld fra hvor du svømmer\n5. Vis respekt for vær, temperatur, strøm og forhold\n6.
+        Lytt til erfarne svømmere\n7. Lytt til kroppen, ta hensyn til dagsform\n8. Ikke svøm i farvann med ferdsel av motoriserte båter\n9. Vær så synlig som mulig (husk sterk
+        signalfarget badehette)</string>
+
+    <string name="save">Save</string>
+
+    <string name="tittelHint">"Tittel: "</string>
+
+    <string name="beskrivelseHint">"Description: "</string>
+
+    <string name="rodTekst">Vannet er under 12 grader, det anbefales ikke å svømme da det kan endre hjerterytmen</string>
+
+    <string name="oransjeTekst">1.Vanntemperatur er mellom 12 og 15 grader
+        \n2.Vindstyrke er mellom 5 og 6 m/s
+        \n3.Bølger over 1 m </string>
+
+    <string name="gronnTekst"> Forholdene er rimelig stabile - det er ingen indikasjon for at dette vil endres de neste timene </string>
+    <string name="kryss">kryss</string>
+    <string name="line_2">Line 2</string>
+    <string name="line_1">Line 1</string>
+
+    <string name="skrift_st_rrelse">Skrift størrelse</string>
+
+    <string name="nattmodus">Nattmodus</string>
+
+    <string name="ferdig">Ferdig</string>
+
+    <string name="hjem">Hjem</string>
+    <string name="lagret">Lagret</string>
+    <string name="info">Info</string>
+    <string name="settings">Settings</string>
+    <string name="trekant">Trekant</string>
+    <string name="gronn_trekant">Grønn trekant</string>
+    <string name="gul_trekant">Gul trekant</string>
+    <string name="r_d_trekant">Rød trekant</string>
+    <string name="pluss">+</string>
+    <string name="minus">-</string>
+
+</resources>
